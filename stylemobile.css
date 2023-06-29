@@ -1,0 +1,164 @@
+@media screen and (max-width:576px) {
+ 
+    
+
+   
+
+    header label {
+        position: relative;
+       
+        display: block;
+        color:rgb(235, 225, 225);
+        font-size: 2em;
+        cursor: pointer;
+        z-index:11 ;
+    }
+  
+    header nav ul{
+      
+        z-index:1;
+       display: block;
+        position: absolute;
+      
+         left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 3em;
+        background-color: rgb(11, 12, 12);
+    }
+
+   
+    header ul li{
+       
+        list-style: none;
+        margin: 20px;
+        display: block;
+    }
+    header ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    header input:checked ~ ul{
+        top:0;
+        transition:top 1s;
+    }
+  header input:not(:checked) ~ ul{
+    top:-100%;
+    transition: top 1s;
+  }
+   header .logo {
+       /* border: solid; */
+       font-size: 2em;
+       color: white;
+       display: inline-block;
+
+
+   }
+     
+
+   .container{
+    flex-wrap: wrap;
+    height: 100vh;
+   }
+   .container header{
+    width: 100%;
+    position: relative;
+   }
+.container .discover{
+    width: 100%;
+}
+.container .discover .centrer{
+    width: 90%;
+   
+  
+}
+.discover .arrow{
+    display: none;
+}
+.container header .arrow{
+    display: block;
+}
+
+
+.container header .arrow {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+   right: 0;
+
+    padding: 5px 15px 5px 15px;
+
+
+}
+
+.container header .arrow img {
+    width: 23px;
+}
+
+.container header .arrow .position {
+    padding: 15px 30px 15px 20px;
+    /* padding: 40px 50px 40px 10px; */
+}
+
+.container header .arrow .position2 {
+    padding: 15px 20px 15px 30px;
+    /* padding: 40px 20px 40px 50px; */
+}
+header .logo {
+    /* border: solid; */
+    font-size: 2.5em;
+    color: white;
+    display: inline-block;
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+
+
+}
+
+
+/* **********containerbas***** */
+
+
+.containerBas{
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.containerBas .table,.containerBas .chaise, .containerBas .about{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
